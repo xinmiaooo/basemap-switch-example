@@ -19,6 +19,7 @@
     zoom={4.5}
     bind:map={mainMap}
   />
+
   <div class="absolute bottom-12 right-4 z-10">
     <BasemapPreview bind:mainMap bind:mapstyleKey />
   </div>
